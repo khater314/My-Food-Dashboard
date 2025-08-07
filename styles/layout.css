@@ -438,10 +438,16 @@ aside a svg {
     .category {
         width: calc((100% - 2em)/3);
     }
+    .product {
+        width: calc((100% - 1em)/2);
+    }
 }
 @media (max-width:1250px) {
     .category {
         width: calc((100% - 1em)/2);
+    }
+    .product {
+        width: calc((100%));
     }
 }
 @media (max-width:1024px) {
@@ -472,6 +478,9 @@ aside a svg {
     .layout_dashboard_invoice {
         height: fit-content;
         overflow: hidden;
+    }
+    .layout_dashboard_invoice_payment {
+        height: fit-content;
     }
 }
 @media (max-width:720px) {
